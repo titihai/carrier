@@ -30,3 +30,5 @@ type UserInfo struct {
 	NickName string `gorm:"type:varchar(20)"`
 	Email    string `gorm:"type:varchar(100);unique_index"`
 }
+
+type tigerBranch struct{}
